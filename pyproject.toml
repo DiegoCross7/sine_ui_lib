@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/DiegoCross7/sine_ui_lib.git"
+Homepage = "https://github.com/DiegoCross7/sine_ui_lib"
 
 [build-system]
 requires = ["pdm-backend"]
