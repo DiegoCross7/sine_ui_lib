@@ -1,0 +1,28 @@
+[project]
+name = "sine_ui_lib"
+version = "0.1.0"
+description = "Librería para automatizar WhatsApp Web con Playwright"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+  { name = "Diego Gabriel Centeno Falcon", email = "diegogabrielcentenofalcon7@gmail.com" }
+]
+dependencies = [
+  "playwright>=1.54.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/DiegoCross7/sine_ui_lib.git"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+# Indica que el código fuente está en la carpeta src/
+package-dir = { "" = "src" }
+# Registra el paquete sine_ui_lib desde src/
+packages = [
+  { include = "sine_ui_lib", from = "src" }
+]
